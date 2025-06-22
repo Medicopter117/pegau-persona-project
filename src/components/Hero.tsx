@@ -13,7 +13,7 @@ const Hero = () => {
       <div className="relative z-10 text-center max-w-4xl mx-auto px-6">
         <div className="animate-fade-in">
           <h1 className="text-6xl md:text-8xl font-bold mb-6 bg-gradient-to-r from-cyan-400 via-blue-400 to-purple-400 bg-clip-text text-transparent drop-shadow-2xl">
-            LennyPegauOfficiall
+            LennyPegauOfficial
           </h1>
           
           <div className="flex items-center justify-center gap-2 mb-8 text-xl md:text-2xl text-cyan-200">
@@ -31,7 +31,7 @@ const Hero = () => {
               🐍 Python Developer
             </span>
             <span className="px-4 py-2 bg-purple-500/20 rounded-full border border-purple-400/30">
-              🤖 Discord Bot Expert
+              🤖 Discord Bot Developer
             </span>
             <span className="px-4 py-2 bg-indigo-500/20 rounded-full border border-indigo-400/30">
               💻 Full Stack
