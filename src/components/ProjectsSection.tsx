@@ -23,31 +23,10 @@ const ProjectsSection = () => {
     {
       title: "RadioBot",
       description: "Radio für Discord",
-      tech: ["Python", "Discord.py"],
+      tech: ["Python", "py-cord", "ezcord"],
       stars: 34,
       link: "#",
       icon: Radio
-    },
-    {
-      title: "Discord Music Bot",
-      description: "Ein fortschrittlicher Musik-Bot für Discord mit Playlist-Management und Audio-Effekten.",
-      tech: ["Python", "py-cord", "YouTube API"],
-      stars: 42,
-      link: "#"
-    },
-    {
-      title: "Server Management Tool",
-      description: "Discord Bot für Server-Verwaltung mit Moderation, Logging und Auto-Moderation Features.",
-      tech: ["Python", "ezcord", "SQLite"],
-      stars: 28,
-      link: "#"
-    },
-    {
-      title: "API Wrapper Library",
-      description: "Python-Bibliothek zum einfachen Umgang mit verschiedenen APIs für Discord-Bot-Entwicklung.",
-      tech: ["Python", "Requests", "AsyncIO"],
-      stars: 15,
-      link: "#"
     }
   ];
 
