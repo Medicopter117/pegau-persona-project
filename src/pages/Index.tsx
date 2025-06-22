@@ -1,7 +1,9 @@
 
 import React from 'react';
 import Hero from '@/components/Hero';
+import AboutSection from '@/components/AboutSection';
 import ToolCard from '@/components/ToolCard';
+import ProjectsSection from '@/components/ProjectsSection';
 import { Code, Terminal, Bot, Zap, FileCode } from 'lucide-react';
 
 const Index = () => {
@@ -46,6 +48,7 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-900 to-gray-900">
       <Hero />
+      <AboutSection />
       
       {/* Tools Section */}
       <section className="py-20 px-6">
@@ -68,6 +71,8 @@ const Index = () => {
           </div>
         </div>
       </section>
+      
+      <ProjectsSection />
       
       {/* Footer */}
       <footer className="py-12 px-6 border-t border-white/10">
