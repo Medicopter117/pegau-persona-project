@@ -1,9 +1,33 @@
 
 import React from 'react';
-import { Github, ExternalLink, Star } from 'lucide-react';
+import { Github, ExternalLink, Star, Shield, Radio, Server } from 'lucide-react';
 
 const ProjectsSection = () => {
   const projects = [
+    {
+      title: "ManagerX",
+      description: "ManagerX ein DiscordBot für Moderation und mehr",
+      tech: ["Python", "Py-cord", "Ezcord"],
+      stars: 56,
+      link: "#",
+      icon: Shield
+    },
+    {
+      title: "OPPRO.NET Network",
+      description: "Discord Server",
+      tech: ["Discord"],
+      stars: 89,
+      link: "#",
+      icon: Server
+    },
+    {
+      title: "RadioBot",
+      description: "Radio für Discord",
+      tech: ["Python", "Discord.py"],
+      stars: 34,
+      link: "#",
+      icon: Radio
+    },
     {
       title: "Discord Music Bot",
       description: "Ein fortschrittlicher Musik-Bot für Discord mit Playlist-Management und Audio-Effekten.",
@@ -44,7 +68,10 @@ const ProjectsSection = () => {
             <div key={project.title} className={`animate-fade-in group`} style={{ animationDelay: `${index * 0.1}s` }}>
               <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-8 h-full hover:bg-white/10 transition-all duration-300 hover:-translate-y-2">
                 <div className="flex items-center justify-between mb-4">
-                  <h3 className="text-2xl font-bold text-white">{project.title}</h3>
+                  <div className="flex items-center gap-3">
+                    {project.icon && <project.icon className="w-6 h-6 text-blue-400" />}
+                    <h3 className="text-2xl font-bold text-white">{project.title}</h3>
+                  </div>
                   <div className="flex items-center gap-2 text-yellow-400">
                     <Star className="w-4 h-4 fill-current" />
                     <span className="text-sm">{project.stars}</span>
